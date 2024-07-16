@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    ;
+}
+
+.main{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 750px;
+}
+
+.e-Navbar{
+    background-color: transparent !important;
+}
+
+.r-Navbar li a{
+    color: #fff;
+    font-size: 15px;
+    margin: 0px 10px;
+    letter-spacing: 2px;
+}
+
+.r-Navbar li a:hover{
+    color: #ffc800;
+}
+
+.header h1{
+    font-size: 35px;
+    font-weight: 700px;
+    color: #fff;
+    margin-top: 200px;
+    font-family: "Roboto Slab" system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.text-r h1{
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    font-family: "Roboto Slab" system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 0;
+}
+
+.bttn-n a{
+    font-size: 20px;
+    padding: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.service{
+    margin-top: 100px;
+}
+
+.sec-items{
+    margin-top: 50px;
+}
+
+.y-icon{
+    color: white;
+    padding: 35px;
+    background: #ffc800;
+    border-radius: 50%;
+    font-size: 50px;
+} 
+
+.port{
+    margin-top: 100px;
+   
+}
+
+.heading h2{
+    font-size: 40px;
+}
+
+.images{
+    position: relative;
+
+}
+
+.img-fluid{
+    height: 300px;
+    background-color: yellow;
+    transition: 1s;
+}
+
+.portfolio-item{
+    margin-bottom: 2rem;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.portfolio-link{
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.portfolio-link:hover{
+    opacity: 1;
+}
+
+.portfohover{
+    width: 400px;
+    height: 300px;
+    background-color: rgba(255, 200, 0, 0.9);
+    position: absolute;
+    font-weight: 700;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    font-size: 120px;
+    color: #fff;
+}
+
+.portfohover:hover{
+    opacity: 0.9;
+}
+
+.portfolio-caption-heading{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#section3{
+    margin-top: 100px;
+}
+
+.team-img img{
+    width: 200px;
+}
+
+
+#section4{
+    margin-top: 100px;
+    background-color: #212529;
+    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+form#contactForm .form-batch input, form#contactForm .form-batch textarea{
+    padding: 1.25rem;
+}
+
+#contactForm .form-batch {
+    margin-bottom: 1.5rem;
+  }
+
+.tit h2{
+    color: #fff;
+    margin: 20px 0;
+}
+
+.tit h3{
+    color: gray;
+    font-size: 15px;
+}
+
+#submitbtn{
+    padding-top: 50px;
+
+  }
+  #subbutton{
+    border: 0px;
+    padding: 20px;
+    background: #ffc800;
+    color: #fff;
+    opacity: 0.5;
+  }
+
+  #subbutton:hover{
+    background-color: #ffd53d;
+  }
